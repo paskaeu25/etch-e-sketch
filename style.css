@@ -1,0 +1,65 @@
+/*
+ * Normalize some basic styles across different browsers
+ */
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /*
+   * Set some general styles for the entire page
+   */
+  html, body {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  /*
+   * Remove default styling from links
+   */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /*
+   * Basic styling for headings
+   */
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0;
+    font-weight: bold;
+  }
+  
+  /*
+   * Basic styling for paragraphs
+   */
+  p {
+    margin: 0.5em 0;
+    line-height: 1.5;
+  }
+  
+  /*
+   * Add some spacing around images
+   */
+  img {
+    margin: 10px;
+  }
+  
+  /*
+   * Set a base font size for easier responsiveness
+   */
+  html {
+    font-size: 62.5%;
+  }
+  
+  /*
+   * Define how elements respond to different screen sizes
+   * This is a very basic example, you can learn more about media queries for more advanced responsiveness
+   */
+  @media (max-width: 768px) {
+    html {
+      font-size: 50%;
+    }
+  }
+  
