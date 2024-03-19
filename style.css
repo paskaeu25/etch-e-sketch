@@ -62,7 +62,6 @@ html {
 /* Styling grid */
 
 .screen {
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,7 +83,6 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 800px;
   gap: 0.9rem;
 }
 

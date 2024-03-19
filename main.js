@@ -1,8 +1,8 @@
-const createGrid = () => {
+const createGrid = (numberOfBoxes) => {
   const boxContainer = document.querySelector('#boxes');
 
-  for (let i = 1; i <= 16; i++) {
-    for (let j = 1; j <= 16; j++) {
+  for (let i = 1; i <= numberOfBoxes; i++) {
+    for (let j = 1; j <= numberOfBoxes; j++) {
       const box = document.createElement('div');
       box.classList.add('box');
       boxContainer.appendChild(box);
@@ -10,7 +10,7 @@ const createGrid = () => {
   }
 };
 
-createGrid();
+createGrid(10);
 
 const changeColors = () => {
   const allBoxes = document.querySelectorAll('.box');
